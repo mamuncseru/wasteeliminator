@@ -1,70 +1,80 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Waste Eliminator
 
-## Available Scripts
 
-In the project directory, you can run:
+Waste Eliminator is simple web application where anyone can make an alert of uncontrolled waste by uploading image and location.
 
-### `npm start`
+## Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Waste Eliminator](#waste-eliminator)
+  - [Contents](#contents)
+  - [Short description](#short-description)
+    - [What is Waste Eliminator?](#what-is-waste-eliminator)
+    - [How Waste Eliminator works?](#how-waste-eliminator-works)
+  - [Video Pitch](#video-pitch)
+  - [The architecture](#the-architecture)
+  - [Long description](#long-description)
+  - [Project roadmap](#project-roadmap)
+  - [Project Code](#project-code)
+  - [Built with](#built-with)
+  - [Contributing](#contributing)
+  - [Authors](#authors)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Short description
 
-### `npm test`
+### What is Waste Eliminator?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Waste Eliminator is simple web application where anyone can make an alert of uncontrolled waste by uploading image and location
 
-### `npm run build`
+### How Waste Eliminator works?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Waste Eliminator adds a marker on the map when an user posts an alert. According these data uploaded by users, Waste Eliminator will create clusters on the map based on density of alert in a certain area.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Video Pitch
+[Watch the video](https://www.youtube.com/watch?v=DKYzY-z72T0)
 
-### `npm run eject`
+## The architecture
+![DiagramOfArchitercutre.jpg](./public/DiagramOfArchitercutre.jpg )
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. The user navigates to the react apps and uploads a photo and sends location.
+2. The react app establish connection with the back-end and google map api.
+3. The back-end is a node.js api which is connected to the cloudant.
+4. All the information is stored in cloudant which is the database of our project.
+5. The google map api is used to show the stored location of the database.
+6. The react app is hosted in the github.
+7. The back-end api is hosted in cloud foundry.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Long description
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[More detail is available here](./description.md)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Project roadmap
 
-## Learn More
+The project roadmap is shown below -
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Roadmap](./public/Roadmap.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Code
 
-### Code Splitting
+The front-end and back-end code is given below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Waste Eliminator](./)
+- [back-end-api](./backend/)
 
-### Analyzing the Bundle Size
+## Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
+- [IBM Cloud Foundry](https://cloud.ibm.com/catalog?search=Cloud%20Foundry#search_results) - For hosting the backend API
+- [Google Map API](https://developers.google.com/maps/gmp-get-started) - For mapping the location
+- [GitHub](https://github.com) - For hosting the client site
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-### Advanced Configuration
+## Authors
+1. [Md. Abdullah Al Mamun](https://github.com/mamuncseru)
+2. [Md. Al Shahria](https://github.com/ShahriarRu)
+3. [Md. Meem Mursalin Chowdhury](https://github.com/mursalin117)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
