@@ -3,7 +3,7 @@ import classes from "./HeroText.module.css";
 import { Link } from "react-router-dom";
 
 const subtext =
-  "Waste Eliminator is simple web application where anyone can make an alert of uncontrolled waste by uploading image and location.";
+  "Waste Eliminator is a simple web application where anyone can make an alert of uncontrolled waste by uploading images and locations.";
 
 const HeroText = (props) => {
   return (
