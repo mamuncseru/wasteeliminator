@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wasteeliminator/static/css/main.cbcd0cd5.chunk.css",
-    "main.js": "/wasteeliminator/static/js/main.bc242bc7.chunk.js",
-    "main.js.map": "/wasteeliminator/static/js/main.bc242bc7.chunk.js.map",
+    "main.js": "/wasteeliminator/static/js/main.fbddd71d.chunk.js",
+    "main.js.map": "/wasteeliminator/static/js/main.fbddd71d.chunk.js.map",
     "runtime-main.js": "/wasteeliminator/static/js/runtime-main.76e47e0b.js",
     "runtime-main.js.map": "/wasteeliminator/static/js/runtime-main.76e47e0b.js.map",
     "static/js/2.6aefc846.chunk.js": "/wasteeliminator/static/js/2.6aefc846.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.76e47e0b.js",
     "static/js/2.6aefc846.chunk.js",
     "static/css/main.cbcd0cd5.chunk.css",
-    "static/js/main.bc242bc7.chunk.js"
+    "static/js/main.fbddd71d.chunk.js"
   ]
 }
