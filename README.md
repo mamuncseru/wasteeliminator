@@ -59,7 +59,7 @@ The project roadmap is shown below -
 
 The front-end and back-end code is given below
 
-- [Waste Eliminator](/)
+- [Waste Eliminator](https://github.com/mamuncseru/wasteeliminator)
 - [back-end-api](./back-end/)
 
 ## Built with
