@@ -59,8 +59,8 @@ The project roadmap is shown below -
 
 The front-end and back-end code is given below
 
-- [Waste Eliminator](./)
-- [back-end-api](./backend/)
+- [Waste Eliminator](/)
+- [back-end-api](./back-end/)
 
 ## Built with
 
