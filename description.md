@@ -14,6 +14,7 @@ In Waste Eliminator users can add a flag/cluster on the map to mark the uncontro
 
 ### Architecture
 ![DiagramOfArchitercutre.jpg](./public/DiagramOfArchitercutre.jpg )
+
 Waste Eliminator is a web base platform. It is created using react js. In the back-end a node js api is connected and back-end api is connected to the cloudant to store data. The react app is hosted in github and the back-end api is hosted in ibm cloud (cloud foundry).
 
 ### Conclusion
